@@ -2,7 +2,7 @@
 Exam 2, problem 1.
 
 Authors: David Mutchler, Dave Fisher, Matt Boutell, Amanda Stouder,
-         their colleagues and Ryan Walter.  April 2018.
+         their colleagues and Ryan Walterr.  April 2018.
 """  # done: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 
