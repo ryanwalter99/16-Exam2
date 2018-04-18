@@ -2,8 +2,8 @@
 Exam 1, problem 2.
 
 Authors: David Mutchler, Dave Fisher, Matt Boutell, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.  March 2018.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         their colleagues and Done.  March 2018.
+"""  # done: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 import time
 import testing_helper
@@ -157,6 +157,14 @@ def problem2(n, seq):
     # TODO: 2. Implement and test this function.
     #          Tests have been written for you (above).
     # -------------------------------------------------------------------------
+
+    new_list = []
+    for k in range(len(seq)):
+        if seq[k]<n:
+            new_list = new_list + [seq[k]]
+            if len(new_list)==3:
+                return new_list
+    return 'Too few'
 
 
 ###############################################################################
